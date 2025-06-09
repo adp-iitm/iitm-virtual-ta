@@ -1,0 +1,31 @@
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# Essential ML and data processing (lightweight alternatives)
+numpy==1.24.3
+pillow==10.1.0
+pytesseract==0.3.10
+
+# Google Gemini API (lightweight)
+google-generativeai==0.1.0rc1
+google-ai-generativelanguage==0.1.0
+
+# HTTP requests for API calls
+requests==2.31.0
+
+# Data serialization
+pickle-compat==2.0.0
+
+# Optional: Only if you need HuggingFace API
+# transformers==4.35.0  # Comment out to save memory
+
+# Remove these heavy dependencies that cause memory issues:
+# sentence-transformers  # This loads large models
+# torch  # Heavy dependency
+# huggingface-hub  # Can be heavy with model downloads

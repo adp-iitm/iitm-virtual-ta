@@ -1,0 +1,42 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+.env
+
+# VS Code settings (optional)
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled / temporary files
+*.log
+*.tmp
+*.swp
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Embedding-related serialized objects (exclude vector_store.pkl)
+*.pkl
+!embeddings/vector_store.pkl
+*.npz
+
+
+
+# Promptfoo outputs (if any)
+promptfoo/
+*.eval
+*.sqlite
+
+# Additional temporary files (if any)
+*.bak
+*.cache
